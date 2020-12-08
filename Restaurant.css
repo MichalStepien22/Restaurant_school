@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+}
+#all{
+    background-color: rgb(20, 20, 20);
+    margin: none;
+    width: 100%;
+    height: 100%;
+}
+#menu {
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+}
+h1{
+    margin-block-end: 0px;
+}
+.disp_flex{
+    display: flex;
+}
+#mlist{
+    position: relative;
+    border: none;
+    border-radius: 10em;
+    list-style: none;
+    background: #111;
+    border: 2px solid white;
+    padding: 6px ; 
+    margin: 0px 10px;
+}
+#mlist li a {
+    position: relative;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    width: 85%;
+}
+#logo img {
+    height: 120px;
+    float: left;
+    border-radius: 10%;
+    margin: 0px 20px;
+}
+
+#one {
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+}
+
+#one li {
+    font-size: 36px ;
+    color: black;
+    list-style: circle !important;
+    list-style-type: disc;
+    list-style-position: inside;
+    text-align: left;
+}
+#one table{
+    width: 70%;
+    font-weight: bold;
+    text-align: center;
+    line-height: 54px;
+}
+#one #one_1 {
+    margin: 0% 20%;
+}
+iframe{
+    width: 50%;
+    height: 260px;
+}
+.white_bgc {
+    padding: 0px;
+    margin: 0% 10%;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 0px;
+    border: solid white 3px;
+    position: relative;
+    top: 20px;
+}
+.white_bgc_tb {
+    padding: 0px;
+    display: inline-block;
+    white-space: nowrap;
+    width: 690px;
+    height: 694px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 0px;
+    border: solid white 3px;
+}
+.white_bgc a {
+    color: blue;
+    text-decoration: none;
+}
+#op_1{
+    font-size: small;
+}
+#open_at h1{
+    text-align: center;
+    color: white;
+}
+#open_at table{ 
+    border-collapse: collapse;
+    margin: auto;
+}
+#open_at td {
+    width: 80px;
+    border: 3px solid red ;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.tb_color {
+    background-color: rgb(7, 110, 20);
+}
